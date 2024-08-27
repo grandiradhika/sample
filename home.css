@@ -1,0 +1,63 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px;
+    background: rgba(243, 240, 240, 0.5); 
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.content button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    background-color: #131313;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.content button a {
+    color: white;
+    text-decoration: none;
+}
+.meditation img{
+    max-width: 50%;
+    margin: 40% 0% 0% 2%; 
+    border-radius: 3rem;
+}
+.meditation p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
